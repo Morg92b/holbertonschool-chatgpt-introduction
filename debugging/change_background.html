@@ -29,8 +29,8 @@
     });
 
     function changeBackgroundColor() {
-        // Generate a random color with exactly 6 digits
-        var randomColor = "#" + ("000000" + Math.floor(Math.random()*16777215).toString(16)).slice(-6);
+        // Generate a random color
+        var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
         // Change the background color of the body
         document.body.style.backgroundColor = randomColor;
     }
@@ -38,4 +38,3 @@
 
 </body>
 </html>
-
